@@ -5,7 +5,9 @@
 ;; See the "Replicating Guix" section in the manual.
 
 (specifications->manifest
-  (list "man-db"
+  (list "git"
+        "vim"
+        "man-db"
         "tmux"
         "nss-certs"
         "font-gnu-freefont"
