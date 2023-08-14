@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+guix describe -f channels > ~/my-guix/channels.scm
+guix package --export-manifest > ~/my-guix/manifest.scm
